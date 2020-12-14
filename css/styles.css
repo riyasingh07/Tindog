@@ -1,0 +1,169 @@
+body {
+  font-family: "Montserrat";
+}
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+h1 {
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: Montserrat;
+  font-weight: bold;
+  line-height: 1.5;
+  font-size: 3rem;
+}
+
+h3 {
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* navbar */
+.navbar {
+  padding-left: 0;
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+  font-family: ubuntu;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  font-family: "Montserrat";
+  font-weight: lighter;
+  padding: 0 18px
+}
+
+/* download buttons */
+.dnld-btn {
+  margin: 5% 5% 5% 0;
+}
+
+/* title image */
+.ttl-img {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%
+}
+
+/*features*/
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.feat {
+  text-align: center;
+  padding: 4.5%;
+}
+
+.ico {
+  color: #ef8172;
+  margin-bottom: 1rem;
+  /* font-size: 4rem; */
+}
+
+.ico:hover {
+  color: #ff4c68;
+}
+
+.feat-text {
+  color: #8f8f8f;
+}
+
+/* testimonials */
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+  text-align: center;
+}
+
+.press-img {
+  width: 10%;
+  margin: 20px 20px 50px;
+}
+
+/* pricing */
+#pricing {
+  padding: 100px;
+}
+
+.card-col {
+  text-align: center;
+  padding: 3% 2%;
+}
+
+.card-item {
+  padding: 5%;
+}
+
+@media (max-width:1028px) {
+  #title {
+    text-align: center;
+    3
+  }
+
+  .ttl-img {
+    transform: rotate(0);
+    position: static;
+  }
+}
+
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 5rem 6rem;
+}
+
+.cta-head {
+  color: #fff;
+  font-weight: 900;
+  font-size: 3.4em;
+  margin: 0 3rem;
+}
+
+.foot-btn {
+  margin: 6rem 0.5rem 3rem;
+}
+
+#footer{
+  text-align: center;
+  padding: 6em;
+}
+.fot-ico{
+  margin: 1em;
+}
